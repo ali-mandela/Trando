@@ -1,0 +1,64 @@
+.bodyBnB{
+    padding: 20px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+.bodyDiv{
+    display: flex;
+    flex-direction: column; 
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.bodyDivImg{
+    position: relative;
+}
+.fa-heart{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 32px;
+    transition: color 1s ease-in-out; 
+}
+.fa-heart:hover{
+    color: orangered;
+}
+ 
+.bodyDivImg img{
+    width: 275px; 
+    height: 280px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+.bodyDivDesc{
+    display: flex;
+    flex-direction: column
+}
+
+.bodyDivDescTitle{
+    font-size: 22px;
+    font-weight: 900;
+}
+.bodyDivDescTitle span{
+    float: right;
+    font-size: 20px;
+}
+.bodyDivDescDist{
+    font-weight: 100;
+    font-size: 18px;
+}
+.bodyDivDescDate{
+    font-weight: 500;
+    font-size: 18px;
+}
+.bodyDivDescPrice{
+    font-weight: 900;
+    font-size: 18px;
+}
+.bodyDivDescPrice i{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+}

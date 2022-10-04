@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0px 1px 0  rgb(212, 206, 206);
+}
+.navbarLogo{
+    width: 110px;
+    height: 50px;
+    object-fit: contain;
+    cursor: pointer;
+}
+/* Navbar search / form  */
+.navbarSearch{
+    border-radius: 35px; 
+    padding: 10px 20px;
+    box-shadow:1px 1px 4px  gainsboro  ;
+    border: 1px solid rgb(122, 120, 120);
+
+}
+.navbarSearch:hover{
+    box-shadow:1px 3px 4px  gainsboro  
+
+}
+.navbarForm{
+    display: flex;
+    align-items: center; 
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.navbarForm input{
+    text-align: center;
+    border: none;
+    width: 90px;
+}
+.navbarForm input:focus{
+    outline: none;
+}
+::placeholder{
+    font-weight: 900;
+}
+.fa-magnifying-glass{
+    color: orangered;
+    font-size: 30px;
+}
+
+
+.navbarLogindetails{
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    gap: 20px;
+
+}
+
+.navbarLogindetails div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid black; 
+    cursor: pointer;
+}
+.navbarLogindetails div:hover{ 
+    box-shadow: 1px 1px 4px  gray; 
+}
+.navbarLogindetails span{
+    border-radius: 35px; 
+    padding: 10px;
+    font-weight: 900;
+}
+.navbarLogindetails span:hover{
+    background-color: gainsboro;
+
+}
+.fa-circle-user{
+    font-size: 25px;
+    color: gray;
+}
+.fa-globe{
+    border-radius: 50%; 
+    padding: 10px;
+}
+.fa-globe:hover{
+    /* box-shadow:1px 1px 4px  gainsboro ; */
+    background-color: gainsboro;
+
+}
